@@ -3,4 +3,10 @@ src = "src"
 out = "out"
 libs = ["lib"]
 
+[rpc_endpoints]
+mainnet = "${BASE_MAINNET}"
+
+[etherscan]
+mainnet = {key = "${ETHERSCAN_KEY}", url = "https://api.basescan.org/api", chain =8453}
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
